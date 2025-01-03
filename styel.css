@@ -24,3 +24,111 @@ h5{
     font-size: 50px;
     color: #212121;
 }
+/* Header area start*/
+.header-area{
+    padding: 20px 0;
+}
+.header-area .nav-item{
+    margin-left: 20px;
+}
+.header-area .nav-link{
+    color: #111111;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.header-area .nav-link.active{
+    color: #646464;
+}
+.header-area .navbar-nav li:last-child .nav-link{
+    text-transform: capitalize;
+    background-color:#CAA892;
+    border-radius: 15px 0;
+    padding: 7px 20px;
+    margin-left: 30px;
+    color: #ffffff;
+}
+/* Header area end */
+
+/* Footer area start  */
+.footer-area{
+background-color: #F8F8F8;
+position: relative;
+}
+.footer-top{
+padding-top: 80px;
+padding-bottom: 40px;
+}
+.company-about p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.footer-link h4{
+    font-size: 25px;
+    color: #111111;
+    margin-bottom: 22px;
+}
+.footer-link ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-link ul li{
+    list-style:none;   
+}
+.footer-link ul a{
+    text-decoration: none;
+    color: #646464;
+    display: inline-block;
+    padding:5px 0;
+    transition: .5s;
+}
+.footer-link ul a:hover{
+   color:#37806B ;     
+}
+.Contact-address h4{
+    font-size: 25px;
+    color: #111111;
+}
+.Contact-address li{
+   padding: 5px 0;
+}
+.social-link li{
+    display: inline-block;
+}
+.social-link li a{
+    background-color:#D5D5D5 ;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    color: #ffffff; 
+    transition: .5s;
+}
+.social-link li a:hover{
+    color: #37806B;
+
+}
+
+
+
+
+.footer-bottom {
+    color: #646464;
+    border-top: 1px solid #646464;
+   padding: 15px 0; 
+}
+.footer-bottom a{
+    text-decoration: none;
+    color: #37806B;
+}
+.design {
+    position: absolute;
+    top: -35px;
+}
+.design img{
+    height:70px;
+    width: 70px;
+}
+/*  Footer area End */
