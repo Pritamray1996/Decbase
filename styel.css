@@ -98,17 +98,22 @@ h5 {
 /* Header area end */
 /* main area start */
 .hero-area {
-  padding: 60px 0;
+  padding: 80px 0;
 }
 .hero-text h2 {
-  font-size: 60px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.hero-text a {
+  margin-top: 25px;
+  display: inline-block;
 }
 .hero-image img {
   border-radius: 140px 0;
 }
 /* service area */
 .service-area {
-  margin: 100px;
+  padding: 80px 0;
   position: relative;
 }
 .single-service {
@@ -161,11 +166,7 @@ h5 {
 }
 /* about-area*/
 .about-area {
-  padding: 50px 0;
-}
-.about-image img {
-  top: 0 !important;
-  left: 0 !important;
+  padding: 80px 0;
 }
 .about-text h6 {
   text-transform: capitalize;
@@ -177,7 +178,87 @@ h5 {
 .about-text a {
   text-transform: capitalize;
 }
+/* success-area */
+.success-area {
+  padding: 80px 0;
+}
+.success-text img {
+  height: 200px;
+  width: 250px;
+  margin-bottom: 25px;
+}
+.success-text h4 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+/* work-area */
+.work-area {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+}
+.section-heading h3 {
+  font-size: 45px;
+}
+.all-work {
+  margin-top: 100px;
+}
+.single-work {
+  display: flex;
+  justify-content: center;
+}
+.singel-work-text {
+  background-color: #ffffff;
+  box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+.singel-work-text::after {
+  position: absolute;
+  content: "";
+  height: 100px;
+  width: 65px;
+  z-index: -1;
+  right: -65px;
+  top: 100px;
+  border-top: 2px solid #E0E0E0;
+  border-right: 2px solid #E0E0E0;
+}
+.singel-work-text.special::after{
+  left:-65px ;
+  top: 100px;
+  border-right: none;
+}
+.single-work-two .singel-work-text::before{
+  position: absolute;
+  content: "";
+  height: 100px;
+  width: 65px;
+  z-index: -1;
+  right: -65px;
+  top: 100px;
+  border-top: 2px solid #E0E0E0;
+}
+.single-work-three .singel-work-text::before{
+  position: absolute;
+  content: "";
+  height: 100px;
+  width: 65px;
+  z-index: -1;
+ left: -65px;
+  top: 100px;
+ border-top: 2px solid #E0E0E0;
+ border-left: 2px solid #E0E0E0;
+}
 
+.special {
+  margin-top: 100px;
+}
 /* main area end */
 /* Footer area start  */
 .footer-area {
